@@ -1,0 +1,57 @@
+.form-progress {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 30px;
+}
+
+.form-progress .progress-bar {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  background-color: #63d391;
+  border-radius: 50px;
+}
+
+.form-steps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 50px;
+}
+
+.form-steps .step {
+  flex: 1;
+  height: 60px;
+  text-align: center;
+  font-weight: bold;
+  color: #3b6779;
+  border-radius: 50px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 9;
+}
+
+.form-steps .step:not(.done):not(.active) .number {
+  color: #63d391;
+}
+
+.form-steps .step.done {
+  color: #fff;
+}
+.form-steps .step.active {
+  background-color: #3b6779;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .form-progress .form-steps .step .word {
+    display: none;
+  }
+}
