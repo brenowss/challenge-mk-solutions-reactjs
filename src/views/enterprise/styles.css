@@ -1,0 +1,32 @@
+.segment-options .options {
+  display: flex;
+  gap: 1rem;
+}
+
+.segment-options .options .option {
+  display: flex;
+  gap: 8px;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #a3a4a5;
+  border-radius: 8px;
+  width: 190px;
+  text-align: center;
+}
+
+.options .option input {
+  align-self: flex-start;
+  accent-color: #63d391;
+}
+
+.options .option img {
+  height: 40px;
+  width: 40px;
+}
+
+@media (max-width: 768px) {
+  .segment-options .options {
+    flex-wrap: wrap;
+  }
+}

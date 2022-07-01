@@ -1,0 +1,52 @@
+.phoneValidation {
+  font-weight: bold;
+  border: 1px solid #3b6779;
+  border-radius: 50px;
+  color: #3b6779;
+  padding: 6px 40px;
+  width: max-content;
+  margin-bottom: 30px;
+}
+
+.verificationCode {
+  margin-bottom: 30px;
+}
+
+.verificationCode h5 {
+  color: #3b6779;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.verificationCode input {
+  border: none;
+  background-image: none;
+  background-color: transparent;
+  box-shadow: none;
+  width: 240px;
+  border-radius: 10px;
+  margin: 0 4px;
+  border: 2px solid #3b6779;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  padding: 6px;
+  letter-spacing: 6px;
+  color: #3b6779;
+}
+
+.verificationCode a {
+  color: #3b6779;
+  font-size: 1.125rem;
+  margin-left: 15px;
+}
+
+.verificationCode input::-webkit-outer-spin-button,
+.verificationCode input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.verificationCode input[type="number"] {
+  -moz-appearance: textfield;
+}

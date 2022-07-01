@@ -1,0 +1,18 @@
+.custom-button {
+  border-radius: 8px;
+  background-color: #63d391;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.25rem;
+  border: none;
+  outline: none;
+  padding: 12px 40px;
+  max-width: 240px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .custom-button {
+    max-width: 100%;
+  }
+}

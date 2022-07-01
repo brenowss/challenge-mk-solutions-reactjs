@@ -1,0 +1,18 @@
+.success {
+  text-align: center;
+}
+
+.success .done-image {
+  max-width: 385px;
+  width: 100%;
+  margin: 30px 0 50px;
+}
+
+.success .email-alert {
+  font-weight: bold;
+  color: #f0b96e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
